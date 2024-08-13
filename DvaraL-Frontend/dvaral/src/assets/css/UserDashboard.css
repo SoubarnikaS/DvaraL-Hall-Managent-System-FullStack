@@ -1,0 +1,82 @@
+.user-dashboard-body {
+    display: flex;
+}
+
+.user-dash-body {
+    display: flex;
+    width: 100%;
+}
+
+.user-side-panel {
+    position: fixed;
+    width: 15vw; /* Adjust the width as needed */
+    height: 90vh; /* Full viewport height */
+    background-color: #fff; /* Background color for visibility */
+    overflow: auto;
+    
+}
+
+.user-main-content {
+    margin-left: 15vw; /* Same width as the side panel */
+ /* Add some padding for better layout */
+    width: calc(100% - 15vw); /* Adjust the width to avoid overflow */
+    overflow-y: auto; /* Make the main content scrollable */
+    /* height: 400vh; */
+    overflow-x: hidden;
+    background-color: #e0e4ed; 
+}
+
+.user-side-panel-links{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    height:80vh;
+    /* align-items: center; */
+    
+}
+
+.user-side-list{
+    list-style: none;
+    font-family: Poppins;
+    font-size: medium;
+    padding: 4%;
+    cursor: pointer;
+    color: rgb(86, 86, 86);
+}
+
+.thoughts{
+    justify-content: end;
+    align-items: center;
+    height:10vh;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.user-greetings{
+    height:13vh;
+    width: 82.5vw;
+    border-radius: 17px;
+    margin:1%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #fff;
+    box-shadow: -17px -12px 15px -3px rgba(78, 78, 78, 0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+
+}
+
+.u-greetings{
+  padding-left:2%;
+  padding-top:1.5%;
+
+}
+
+.user-dash-halls{
+    height: 90vh;
+    width: 82.5vw;
+    margin:1%;
+    border-radius: 17px;
+    /* box-shadow: -17px -12px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1); */
+    background-color: #fff;
+}

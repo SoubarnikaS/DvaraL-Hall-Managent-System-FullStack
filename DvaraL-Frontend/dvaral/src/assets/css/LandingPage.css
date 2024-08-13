@@ -1,0 +1,73 @@
+.lp-body {
+    /* height: 90vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e5e5f7;
+opacity: 0.8; */
+    /* background-image :  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 10px ), repeating-linear-gradient( #444cf755, #444cf7 );  */ 
+}
+
+.img-container {
+    height: 80vh;
+    width: 45vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.img-container img {
+    height: 60vh;
+    width: 40vw;
+}
+
+.carousel-content {
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/035/590/085/non_2x/ai-generated-vibrant-blue-watercolor-brush-strokes-isolated-on-transparent-background-free-png.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; */
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carousel-content img {
+
+    height: 90vh;
+    width: 50vw;
+    border-radius: 100%;
+    position: absolute;
+
+}
+
+.carousel-text {
+    height: 80vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "merienda";
+    color: #fff;
+    background: #1769ED;
+    background: linear-gradient(to right, #1769ED 0%, #A747D1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lp-content {
+    height: 50vh;
+    width: 100vw;
+    background-color: #A747D1;
+}

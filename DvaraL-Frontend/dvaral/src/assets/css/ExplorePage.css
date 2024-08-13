@@ -1,0 +1,43 @@
+.explore-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.greetings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    height: 30vh;
+    width: 100vw;
+    /* background-color: aqua; */
+}
+
+.vision{
+    height:20vh;
+    width: 25vw;
+    border-radius: 7px;
+    box-shadow: -17px -12px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color: #fff;
+    font-family: "Poppins";
+    font-size: 4vh;
+    padding: 2vh 0vh 2vh 4vh;
+    color:rgb(44, 44, 159);
+    /* text-align: center; */
+}
+
+.filters{
+    height:20vh;
+    width: 72vw;
+    border-radius: 7px;
+    box-shadow: -17px -12px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color: rgb(10, 198, 135);
+}
+
+.booking-cards{
+    height: 150vh;
+    width: 80vw;
+    border-radius: 7px;
+    box-shadow: -17px -12px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}

@@ -1,0 +1,101 @@
+/* .nav-body{
+    height:200vh;
+   
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.nav-container{
+    height: 9vh;
+    width: 100vw;
+    background-color: #fff;
+    position: -webkit-sticky; 
+    position: sticky;
+    z-index: 10000;
+    top: 0;
+    box-shadow: -17px -12px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    
+}
+
+.nav-contents{
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.hms-logo{
+    height: 9vh;
+    width: 5vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hms-title{
+    height: 9vh;
+    width: 25vw;
+    display: flex;
+    color: #1769ed;
+    font-size: 5.5vh;
+    font-weight: 600;
+    font-family: "Dancing Script";
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-items{
+    height: 9vh;
+    width: 60vw;
+    /* background-color: aqua; */
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+
+}
+
+.nav-list{
+    font-size: 2.3vh;
+    font-weight: 500;
+    font-family: Poppins;
+    cursor: pointer;
+}
+
+.nav-list:hover{
+    color: 	#4285F4;
+    cursor: pointer;
+
+}
+
+.user-btn{
+    height: 9vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.login-btn{
+    height:6vh;
+    width: 6vw;
+    font-size: 1vw;
+    font-family: 'Poppins';
+    /* font-weight: 530; */
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.login-btn:hover{
+    background-color: #efedede4;
+    
+}
+

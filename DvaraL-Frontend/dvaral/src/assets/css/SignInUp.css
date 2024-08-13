@@ -1,0 +1,45 @@
+
+.sign-up-container{
+    display: flex;
+    height: 60vh;
+    width: 30vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.sign-in-container{
+    display: flex;
+    height: 40vh;
+    width: 30vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #eee;
+}
+
+.sign-up-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-box p{
+    font-family: "Dancing Script";
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.sign-up-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.2vh;
+}
+/* 
+.sign-input-box{
+    width:22vw;
+} */
